@@ -11,20 +11,13 @@ How To Use:
 - Give `slide` class  to the div you want to animate.
     This should be HTML sturucture:
 
-      `
-      <div class="random-class-name">
-      
+
+    `<div class="random-class-name">
         <div class="slide"></div>
-        
         <div class="slide"></div>
-        
         <div class="slide"></div>
-        
         <div class="slide"></div>
-        
-      </div>
-      
-      `
+    </div>`
       
       
   Inner Div should have `slide` class otherwise it won't work.
