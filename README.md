@@ -12,15 +12,20 @@ How To Use:
     This should be HTML sturucture:
 
       `<div class="random-class-name">
+      
         <div class="slide"></div>
+        
         <div class="slide"></div>
+        
         <div class="slide"></div>
+        
         <div class="slide"></div>
+        
       </div>`
       
       
   Inner Div should have `slide` class otherwise it won't work.
-- Initialte Carousel using JS/JQ:  $('.car').carousel({'speed':700});
+- Initialte Carousel using JS/JQ:  $('.random-class-name').carousel({'speed':700});
 - `speed` is a parameter to control the animation speed.
 - I will add more params soon :).
 
